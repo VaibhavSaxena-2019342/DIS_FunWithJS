@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./CSS,JS/style.css">
+<link rel="icon" href="Resources/icon.png" type="image/icon type">
+<title>2020 : DIS Part3</title>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="CSS,JS/script.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function($)
+{
+	$('#img3lap').addeffect()
+})
+</script>
+
+</head>
+<body>
+
+<p class="onoff" id="onofftext">OFF</p>
+<div class="semicircle1" id="sc1" onclick="curtainUp()"></div>
+<div class="semicircle2" id="sc2" onclick="curtainDown()"></div>
+<div class="curtain" id="crtn"></div>
+
+<div class="row">
+
+  <div id="div1" class="column">
+    <img id="img1.1" onmouseover="changeImg(this)" onmouseout="changeImgBack(this)" src="Resources/2black.png" class="secondimg" height="350" width="350"></img>
+    <img id="img1" src="Resources/2red.png" height="350" width="350"></img>
+    <img id="img1.2" class="san" src="Resources/sanitizer.png" height="350" width="350" style="position: fixed; bottom: 0; left: 0; opacity: 0;"></img>
+    <div class="p1">PROTECTIVE MEASURES</div>
+  </div>
+
+  <div class="column">
+    <img id="img2.1" onmouseover="changeImg2(this)" onmouseout="changeImgBack2(this)" src="Resources/0black.png" class="secondimg" height="350" width="350"></img>
+    <img id="img2" src="Resources/0red.png" height="350" width="350"></img>
+    <br>
+    <br>
+    <br>
+    <div class="person"></div>
+    <div class="person"></div>
+    <div class="person"></div>
+    <br>
+    <div class="person"></div>
+    <div class="person"></div>
+    <div class="person"></div>
+    <br>
+    <div class="person"></div>
+    <div class="person"></div>
+    <div class="person"></div>
+    <div class="p2">SOCIAL DISTANCING</div>
+  </div>
+
+  
+  <div class="column" onmouseover="LaptopImg()" onmouseout="LaptopImgBack()">
+  	<img id="img3lap" class="specimg1" onmouseover="LaptopImg()" onmouseout="LaptopImgBack()" src="Resources/LaptopScreen.png" height="350" width="350"></img>
+    <img id="img3.1" onmouseover="changeImg3(this)" onmouseout="changeImgBack3(this)" src="Resources/2black.png" class="secondimg" height="350" width="350"></img>
+    <img id="img3" src="Resources/2red.png" height="350" width="350"></img>
+    <div class="p3">WORK FROM HOME</div>
+  </div>
+
+  <div class="column" onmouseover="LossImg()" onmouseout="LossImgBack()">
+    <img id="img4.1" onmouseover="changeImg4(this)" onmouseout="changeImgBack4(this)" src="Resources/0black.png" class="secondimg" height="350" width="350"></img>
+    <img id="img4" src="Resources/0red.png" height="350" width="350"></img>
+	<div class="p4">HEAVY LOSSES</div>
+    <div class="focus">
+	<img id="img4.2" class="grey" src="Resources/Losses.png" height="350" width="350" style="position: fixed; bottom: 0; left: 76%; opacity: 0;"></img>
+	</div>
+  </div>
+
+</div>
+
+<script src="./CSS,JS/script.js"></script>
+</body>
+</html>

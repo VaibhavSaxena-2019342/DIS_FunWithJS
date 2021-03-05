@@ -8,7 +8,7 @@ var zoom =
 {
     initialize: function($)
     {
-        var $magnifyingglass = $('<div style="position:absolute;width:100px;height:100px;display:none;overflow:hidden;z-index:6;border-radius:50%;border:5px;border-style:solid;border-color:#707271;"/>')
+        var $magnifyingglass = $('<div style="position:absolute;width:100px;height:100px;display:none;overflow:hidden;z-index:3;border-radius:50%;border:5px;border-style:solid;border-color:#707271;"/>')
             .append('<div style="position:absolute;"/>').appendTo(document.body)
 
         zoom.$magnifyingglass = {outer:$magnifyingglass,inner:$magnifyingglass.find('div:eq(0)'),image:null}

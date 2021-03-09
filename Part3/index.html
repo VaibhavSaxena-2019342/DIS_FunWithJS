@@ -1,0 +1,94 @@
+<html>
+<head>
+<link rel="stylesheet" href="./CSS,JS/style.css">
+<link rel="icon" type="png/gif" href="Resources/icon1.png">
+<title>VS's Portfolio | Home</title>
+
+<script type="text/javascript" src="CSS,JS/script.js"></script>
+</head>
+<body>
+
+<audio id="divAudio" loop>
+   <source src="Resources/bgmusic.mp3" type="audio/mp3">
+</audio>
+
+<div class="prog" id="progelem"></div>
+
+<img src="Resources/top.png" class="topbtn" id="topbtnelem" onclick="taketotop()" onmouseover="topfront()" onmouseout="topback()">
+</img>
+<img src="Resources/me.png" class="grey" style="position: fixed;right: 40px;bottom: 0;z-index: 2">
+
+<div id="myLogin" class="login">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeLog()">&times;</a><br>
+  <center>
+    <br><br><br><br><br>
+  	<img id="loginimg" class="loginimg" src="Resources/icon1.png" onmouseover="loginimg()" onmouseout="loginimgback()">
+    <br><br><br>
+    CONTACT INFO:
+    <br><br>
+    Vaibhav Saxena | vaibhav19342@iiitd.ac.in
+    <br><br><br><br><br><br>
+  	<a href="https://www.facebook.com/vaibhav.saxena.2403/" target="_blank"><img class="social" src="Resources/fb.png"></a>
+    <a href="https://www.instagram.com/vaibhav._saxena._/" target="_blank"><img class="social" src="Resources/insta.png"></a>
+    <a href="https://twitter.com/SaxenaVaibhavVS" target="_blank"><img class="social" src="Resources/twitter.png"></a>
+    <a href="https://www.linkedin.com/in/vaibhav-saxena-ba8ba8208/" target="_blank"><img class="social" src="Resources/linkedin.png"></a>
+  </center>
+</div>
+
+<div id="mySidenav" class="sidenav"><img src="Resources/navsign.png" onclick="closeNav()">
+<br><br><br><br><br><br>
+  <div class="c"><a>Home</a></div>
+  <a href="Projects.html">Projects</a>
+  <div class="jumpbtn" onclick="CatOpen()">JUMP TO</div>
+  <div class="musicbtn" onclick="playm()"><zz id="musictag">PLAY MUSIC</zz></div>
+</div>
+
+<div class="head">
+<div style="float: left;"><img class="headimg1" src="Resources/navsign.png" onclick="openNav()"></div>
+<div class="keynav1" id="lefttext">Press Left Key to Open Nav Menu&nbsp&nbsp&nbsp&nbsp&nbsp|</div>
+<img src="Resources/icon1.png" style="height: 40px;width: 40px;padding-top: 2px;">
+<div class="keynav2" id="righttext">|&nbsp&nbsp&nbsp&nbsp&nbspPress Right Key to Open Contact Info</div>
+<div style="float: right;"><img class="headimg1" src="Resources/loginsign.png" onclick="openLog()"></div>
+
+</div>
+
+<div class="bgimg-1" id="bg1"></div>
+<div id="Cat" class="cat">
+<p id="p">
+<a class="block" id="blck" onclick="jumpTo(500)">ABOUT</a>
+<a class="block" id="d" onclick="jumpTo(1100)">END</a>
+<a href="javascript:void(0)" class="closebtn" onclick="CatClose()">&times;</a>
+</p>
+</div>
+
+<div id="myHead" class="heading" onclick="head2open()" style="cursor: pointer;">
+  <div class="typewriter">
+    <h1 style="cursor: pointer;">Vaibhav Saxena's Portfolio &nbsp</h1>
+  </div>
+</div>
+<div id="myHead2" class="heading2" onclick="head2close()" style="cursor: pointer;">
+  <div class="typewriter">
+    <h1 style="cursor: pointer;">Hope you enjoy! &nbsp</h1>
+  </div>
+</div>
+
+<div class="a">
+  <p>"Hey there!
+    <br>Welcome to my Portfolio! I am Vaibhav Saxena, and I am currently a student at IIIT, Delhi!
+    <br>I have created this interactive webiste to showcase my skills, achievements and ceations.
+    <br><br>I hope you like my projects and my website! :) "<br><br></p>
+</div>
+
+<div class="bgimg-5" id="bg5">
+<a href="Projects.html">
+<div class="caption">
+    <span class="border">Visit Projects Page</span>
+</div>
+</a>
+</div>
+
+<script type="text/javascript" src="CSS,JS/particles.js"></script>
+<script type="text/javascript" src="CSS,JS/script.js"></script>
+<script type="text/javascript" src="CSS,JS/asd.js"></script>
+</body>
+</html>
